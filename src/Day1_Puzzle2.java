@@ -8,7 +8,7 @@ public class Day1_Puzzle2 {
         int groupA=0;
         int groupB=0;
 
-        try(BufferedReader br = new BufferedReader(new FileReader("/home/bk201/Coding/blobs/src/adventInput.txt"))){
+        try(BufferedReader br = new BufferedReader(new FileReader("/home/bk201/Coding/blobs/AOC/src/adventInput.txt"))){
             String line;
             ArrayList<Integer> inputs = new ArrayList<Integer>();
             while (inputs.size() < 3 &&(line=br.readLine()) != null ){

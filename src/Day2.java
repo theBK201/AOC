@@ -8,7 +8,7 @@ public class Day2 {
         int depth = 0;
         int multiplication = 0;
 
-        try(BufferedReader br = new BufferedReader(new FileReader("/home/bk201/Coding/blobs/src/adventInput.txt"))){
+        try(BufferedReader br = new BufferedReader(new FileReader("/home/bk201/Coding/blobs/AOC/src/adventInput.txt"))){
             String line;
             while ((line=br.readLine()) != null){
                 String[] result = line.split(" ");

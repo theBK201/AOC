@@ -6,7 +6,7 @@ public class Day1 {
         int increasedCount = 0;
         int countedNum = 0;
 
-        try(BufferedReader br = new BufferedReader(new FileReader("/home/bk201/Coding/blobs/src/adventInput.txt"))){
+        try(BufferedReader br = new BufferedReader(new FileReader("/home/bk201/Coding/blobs/AOC/src/adventInput.txt"))){
             String line;
             while ((line=br.readLine()) != null){
                int numInput = Integer.parseInt(line);
